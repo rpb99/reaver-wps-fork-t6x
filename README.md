@@ -42,6 +42,10 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 
 # Setup
 
+**clean before install to avoid error** !IMPORTANT
+
+`apt-get purge --auto-remove reaver -y && apt-get install sqlite3 libsqlite3-dev libpcap0.8-dev -y`
+
 **Download**
 
 `git clone https://github.com/t6x/reaver-wps-fork-t6x`
@@ -49,6 +53,8 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 or
 
 `wget https://github.com/t6x/reaver-wps-fork-t6x/archive/master.zip && unzip master.zip`
+
+
 
 **Locate the shell**
 
